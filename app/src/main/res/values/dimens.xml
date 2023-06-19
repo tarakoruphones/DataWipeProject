@@ -87,4 +87,5 @@
     <dimen name="terms_codition_confirm_button_padding_left">50dp</dimen>
     <dimen name="terms_codition_confirm_button_padding_right">50dp</dimen>
     <dimen name="terms_codition_confirm_button_padding_top">10dp</dimen>
+    <dimen name="message_text_size">15dp</dimen>
 </resources>

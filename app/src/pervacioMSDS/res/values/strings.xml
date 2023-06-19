@@ -57,10 +57,5 @@
     <string name="insufficient_space_on_dest">* Insufficient space on New Device</string>
     <string name="switch_scan_source_msg">Pairing needs to be reinitiated, click on \"Restart Pairing\" on the New device.</string>
 
-    <!-- Font Names in Assets -->
-    <string name="font_light">roboto_light.ttf</string>
-    <string name="font_regular">roboto_regular.ttf</string>
-    <string name="font_bold">roboto_bold.ttf</string>
-    <string name="font_medium">roboto_medium.ttf</string>
-    <string name="font_thin">roboto_thin.ttf</string>
+
 </resources>

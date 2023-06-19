@@ -133,38 +133,28 @@ dependencies {
     implementation files('libs/jmdns-3.4.1.jar')
     implementation 'com.journeyapps:zxing-android-embedded:3.3.0' // upgrading to new version of zxing
     implementation 'com.pervacio.crashreportlib:crashreportlib@aar'
-    implementation 'org.pervacio.wirelessdatawipe:wirelessdatawipe@aar'
+
     implementation 'org.pervacio.onediaglib:onediaglib@aar'
 
     implementation 'androidx.appcompat:appcompat:1.0.0'
-    implementation 'com.google.code.gson:gson:2.7'
     implementation 'com.google.android.gms:play-services-drive:7.0.0'
-    // downgraded the version 8.4 to 7.0 for geofencing.
-//    implementation 'com.squareup.retrofit2:retrofit:2.0.2'
-//    implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
-    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
 
-    implementation 'com.github.mjdev:libaums:0.5.5'
+
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.1.+'
     implementation 'org.jsoup:jsoup:1.7.3'
     implementation ('com.amazonaws:aws-android-sdk-mobile-client:2.6.7@aar') { transitive = true }
-    implementation 'com.amazonaws:aws-android-sdk-s3:2.6.+'
-    implementation 'com.amazonaws:aws-android-sdk-cognito:2.6.+'
+
     implementation "androidx.annotation:annotation:1.1.0"
     implementation 'com.google.android.gms:play-services-location:16.0.0'
 
     //Firebase
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'com.google.android.material:material:1.2.0'
-    implementation 'com.google.firebase:firebase-ml-vision:24.0.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
 
 
     //RunTime
-//    implementation "android.arch.work:work-runtime:1.0.1"
-//    implementation 'androidx.work:work-runtime:2.7.1'
 
     def work_version = "2.4.0"
     // (Java only)

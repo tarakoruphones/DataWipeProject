@@ -56,7 +56,7 @@ android:orientation="vertical">
         android:textColor="@color/backgroundColor"
         android:textSize="16sp"
         android:layout_marginLeft="15dp"
-        android:layout_marginRight="@dimen/custom_btn_rt_margin"
+        android:layout_marginRight="15dp"
 
         android:background="@drawable/grey_rounded_corner_new"
 
