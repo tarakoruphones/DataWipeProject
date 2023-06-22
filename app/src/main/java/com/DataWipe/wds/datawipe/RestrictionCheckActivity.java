@@ -12,9 +12,12 @@ import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.Looper;
+import android.os.storage.StorageManager;
 import android.provider.Settings;
+import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -62,7 +65,7 @@ public class RestrictionCheckActivity extends AppCompatActivity {
     TextView SD_presentText;
     TestResult testResult;
     TestSim testSim;
-    SdCardInsertionTest sdCardInsertionTest;
+   // SdCardInsertionTest sdCardInsertionTest;
     TestSdCardResult testSdCardResult;
     private ModeReceiverClass modeReceiverClass;
     public AccountManager accountManager;
@@ -125,7 +128,7 @@ public class RestrictionCheckActivity extends AppCompatActivity {
         testSim = new TestSim();
 
         //Initiating SdCardInsertionTest Class
-        sdCardInsertionTest = new SdCardInsertionTest();
+       // sdCardInsertionTest = new SdCardInsertionTest();
 
         //performing All the checks
         performChecks();
@@ -373,6 +376,21 @@ public class RestrictionCheckActivity extends AppCompatActivity {
         return accounts.length > 0;
 
     }
+
+    public static boolean isSdCardPresent(Context context) {
+        File[] externalStoragePaths = new File[0];
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {
+            externalStoragePaths = context.getExternalFilesDirs(null);
+        }
+        for (File path : externalStoragePaths) {
+            if (path != null && !path.toString().equals(context.getExternalFilesDir(null).getAbsolutePath())) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
     private void startUpdatingTextView() {
 
         // Create a periodic task to update the TextView at a desired interval
@@ -395,18 +413,21 @@ public class RestrictionCheckActivity extends AppCompatActivity {
                         }
 
                         //SD fetching
-                        testSdCardResult = sdCardInsertionTest.performSdCardInsertionTest();
-                        if (testSdCardResult.getResultCode() == 512) {
-                            //var2 = "PASS";
-                            SD_present.setImageResource(R.drawable.ic_pass);
-                            SD_presentText.setText("SD Card Not Present");
-                        } else {
-                            //var2 = "FAIL";
+                       // testSdCardResult = sdCardInsertionTest.performSdCardInsertionTest();
+
+                        if (isSdCardPresent(getApplicationContext())) {
+                            // SD card is present
+                            // Perform your desired operations
+                            Log.d("TARAKK", "run: "+"YOOOOOOOOOOOO");
                             SD_present.setImageResource(R.drawable.ic_fail);
                             SD_presentText.setText("SD Card Present!");
-
-
+                        } else {
+                            // SD card is not present
+                            // Handle the absence of SD card
+                            SD_present.setImageResource(R.drawable.ic_pass);
+                            SD_presentText.setText("SD Card Not Present");
                         }
+
 
                         //CheckAccounts
                         if(isGoogleAccountSignedIn())
