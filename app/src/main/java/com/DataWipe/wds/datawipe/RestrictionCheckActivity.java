@@ -102,6 +102,8 @@ public class RestrictionCheckActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restriction_check);
 
+        Log.d("Tarak", "onCreate: "+"New Updated Data Wipe Tarak");
+
         checkPermissions();
         /*
 
