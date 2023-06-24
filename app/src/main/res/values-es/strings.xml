@@ -14,7 +14,7 @@
 -->
 
 <resources>
-    <string name="app_name">Pervacio Content Transfer</string>
+    <string name="app_name">pervacioo Content Transfer</string>
     <string name="ept_empty_line">\n</string>
 
     <string name="ept_next_button">Siguiente</string>
@@ -248,7 +248,7 @@
 
     <string name="storeid_message">Por favor introduzca el ID de tienda</string>
     <string name="terms_and_condition_dialog_header_acknowledge">PPor favor confirme la aceptaci\u00F3n de los siguientes t\u00E9rminos y condiciones para poder continuar.</string>
-    <string name="wds_terms_and_conditions_text">Al descargar y utilizar la aplicación Pervacio Content Transfer, estos términos se aplicarán automáticamente a usted. Por lo tanto, asegúrese de leerlos detenidamente antes de usar la aplicación. Tenga en cuenta que no puede enviárselo a nadie más, y que no está autorizado a copiar o modificar la aplicación, ninguna parte de la aplicación o nuestras marcas comerciales, de ninguna manera. No puede intentar extraer el código fuente de la aplicación, tampoco debe intentar traducir la aplicación o hacer versiones derivadas. La aplicación en sí, y todas las marcas comerciales, derechos de autor, derechos de base de datos y derechos de propiedad intelectual relacionados con ella, todavía pertenecen a Pervacio Content Transfer.</string>
+    <string name="wds_terms_and_conditions_text">Al descargar y utilizar la aplicación pervacioo Content Transfer, estos términos se aplicarán automáticamente a usted. Por lo tanto, asegúrese de leerlos detenidamente antes de usar la aplicación. Tenga en cuenta que no puede enviárselo a nadie más, y que no está autorizado a copiar o modificar la aplicación, ninguna parte de la aplicación o nuestras marcas comerciales, de ninguna manera. No puede intentar extraer el código fuente de la aplicación, tampoco debe intentar traducir la aplicación o hacer versiones derivadas. La aplicación en sí, y todas las marcas comerciales, derechos de autor, derechos de base de datos y derechos de propiedad intelectual relacionados con ella, todavía pertenecen a pervacioo Content Transfer.</string>
     <string name="button_i_agree">Acepto</string>
     <string name="button_i_disagree">No acepto</string>
     <string name="connecting_to_server">Conectando al servidor</string>
@@ -368,7 +368,7 @@
     <string name="read_more">Read the Sprint\'s <a href="http://www.sprint.com/privacypolicy">Privacy Policy</a>.</string>
     <string name="build_release_date">Build release date</string>
     <string name="version_number">Version number</string>
-    <string name="app_created">This app was created for Sprint by Pervacio, Inc.</string>
+    <string name="app_created">This app was created for Sprint by pervacioo, Inc.</string>
     <string name="comment_box">Please leave a comment about the app.</string>
     <string name="about">Acerca de</string>
     <string name="text_message">Sprint Content Transfer quickly and easily allows you to transfer the data between devices.</string>
@@ -426,8 +426,8 @@
     <string name="battery_level">El nivel de batería es : </string>
     <string name="low_battery_text_message">\n\nPor favor conecte su equipo a una fuente de energía</string>
     <string name="str_permission_go_to_settings">Go to settings and enable the permissions.</string>
-    <!--<string name="str_write_permission"><![CDATA[Autorier <b>Pervacio Content Transfer</b> a acces les parameteres de lappareil.<br/>(Tiempo de duración de la pantalla, Brillo, Configuración de llamada (timbre y volumen), Protector de pantalla)]]></string>-->
-    <string name="str_write_permission"><![CDATA[Autorizar a <b>Pervacio Content Transfer</b> para acceder a los parametros del dispositivo.<br/>(Tiempo de duración de la pantalla, Brillo, Configuración de llamada (timbre y volumen), Protector de pantalla)]]></string>
+    <!--<string name="str_write_permission"><![CDATA[Autorier <b>pervacioo Content Transfer</b> a acces les parameteres de lappareil.<br/>(Tiempo de duración de la pantalla, Brillo, Configuración de llamada (timbre y volumen), Protector de pantalla)]]></string>-->
+    <string name="str_write_permission"><![CDATA[Autorizar a <b>pervacioo Content Transfer</b> para acceder a los parametros del dispositivo.<br/>(Tiempo de duración de la pantalla, Brillo, Configuración de llamada (timbre y volumen), Protector de pantalla)]]></string>
     <string name="str_allow">Permitir</string>
     <string name="str_deny">No Permitir</string>
     <string name="str_data_types_not_transferred">Below data types will not be transferred because permissions were not granted</string>
@@ -440,7 +440,7 @@
         \nDo you want to resume the old transaction or start a new one?</string>
     <string name="str_rate_now">Rate Now</string>
     <string name="str_not_now">Not Now</string>
-    <string name="str_rateapp_msg">Enjoying Pervacio Content Transfer ?</string>
+    <string name="str_rateapp_msg">Enjoying pervacioo Content Transfer ?</string>
     <string name="str_tap_a_star">Tap a star to rate it on the Play Store.</string>
     <string name="str_enter_emp_id">Ingrese el No. de empleado</string>
     <string name="str_pls_enter_emp_id">Please enter employee id.</string>
@@ -518,10 +518,10 @@
     <string name="transfer_cancelled_msg">Por favor seleccione OK y reinicie si lo requiere</string>
     <string name="str_terms_condition">Términos y condiciones</string>
     <string name="str_privacy_statement">Declaración de privacidad</string>
-    <string name="permissions_policy_header">Bienvenido a Pervacio Content Transfer</string>
+    <string name="permissions_policy_header">Bienvenido a pervacioo Content Transfer</string>
     <string name="permissions_policy_body">
     <![CDATA[
-Pervacio Content Transfer le permite transferir datos desde su celular antiguo a un celular nuevo. Durante el uso, esta aplicaci&oacute;n necesita los siguientes permisos para proporcionar servicios de transferencia de datos.<br>
+pervacioo Content Transfer le permite transferir datos desde su celular antiguo a un celular nuevo. Durante el uso, esta aplicaci&oacute;n necesita los siguientes permisos para proporcionar servicios de transferencia de datos.<br>
 <br><strong>Contactos</strong>
 <br> Se usa para transferir contactos<br>
 <br><strong>Calendarios</strong>
@@ -538,13 +538,13 @@ Pervacio Content Transfer le permite transferir datos desde su celular antiguo a
     </string>
     <string name="privacy_policy">
      <![CDATA[
-<p><strong>POL&Iacute;TICA DE PRIVACIDAD DE TRANSFERENCIA DE CONTENIDO DE PERVACIO</strong></p>
-<p>Pervacio Inc., creador de Pervacio Content Transfer, reconoce que su privacidad es importante y que su informaci&oacute;n personal debe estar protegida. Esta pol&iacute;tica de privacidad describe la informaci&oacute;n que recopilamos de usted, c&oacute;mo la usamos y qu&eacute; hacemos para protegerla.</p>
-<p>Lea esta pol&iacute;tica detenidamente y peri&oacute;dicamente. P&oacute;ngase en contacto con nosotros en <a href="mailto:support@pervacio.com">support@pervacio.com</a> &nbsp;si tiene alguna pregunta sobre el contenido de esta pol&iacute;tica.</p>
+<p><strong>POL&Iacute;TICA DE PRIVACIDAD DE TRANSFERENCIA DE CONTENIDO DE pervacioo</strong></p>
+<p>pervacioo Inc., creador de pervacioo Content Transfer, reconoce que su privacidad es importante y que su informaci&oacute;n personal debe estar protegida. Esta pol&iacute;tica de privacidad describe la informaci&oacute;n que recopilamos de usted, c&oacute;mo la usamos y qu&eacute; hacemos para protegerla.</p>
+<p>Lea esta pol&iacute;tica detenidamente y peri&oacute;dicamente. P&oacute;ngase en contacto con nosotros en <a href="mailto:support@pervacioo.com">support@pervacioo.com</a> &nbsp;si tiene alguna pregunta sobre el contenido de esta pol&iacute;tica.</p>
 <p><strong>La informaci&oacute;n que recopilamos es necesaria para proporcionar nuestros servicios.</strong></p>
 <p>No recopilamos ninguna informaci&oacute;n de usted o sobre usted que no tenga que ver con los servicios proporcionados por nuestra aplicaci&oacute;n. Cualquier informaci&oacute;n que recopilemos de usted se almacena como solo conectada a su cuenta a menos que se indique lo contrario en la aplicaci&oacute;n. Su privacidad es importante y solo usaremos y divulgaremos informaci&oacute;n si se alinean con los t&eacute;rminos descritos a continuaci&oacute;n.</p>
 <p><strong>No recopilamos informaci&oacute;n personal.</strong></p>
-<p>Bajo ninguna circunstancia recopilamos y almacenamos informaci&oacute;n personal de usted o sobre usted. La informaci&oacute;n personal es cualquier informaci&oacute;n que lo identifique a usted u otra persona, como su nombre y apellido, direcciones f&iacute;sicas, direcciones de correo electr&oacute;nico, n&uacute;meros de tel&eacute;fono, n&uacute;meros de fax o cualquier informaci&oacute;n espec&iacute;fica para usted que est&eacute; almacenada en su dispositivo. Nuestra funci&oacute;n de transferencia de datos solo almacena datos de su antiguo dispositivo en el nuevo dispositivo al que est&aacute; transfiriendo la informaci&oacute;n. Durante todo el proceso, no se accede al servidor Pervacio Content Transfer para que no veamos su informaci&oacute;n personal. En otras palabras, puede estar seguro de que no hay forma de que recopilemos su informaci&oacute;n si utiliza nuestra aplicaci&oacute;n para copiar los datos de un tel&eacute;fono a otro.</p>
+<p>Bajo ninguna circunstancia recopilamos y almacenamos informaci&oacute;n personal de usted o sobre usted. La informaci&oacute;n personal es cualquier informaci&oacute;n que lo identifique a usted u otra persona, como su nombre y apellido, direcciones f&iacute;sicas, direcciones de correo electr&oacute;nico, n&uacute;meros de tel&eacute;fono, n&uacute;meros de fax o cualquier informaci&oacute;n espec&iacute;fica para usted que est&eacute; almacenada en su dispositivo. Nuestra funci&oacute;n de transferencia de datos solo almacena datos de su antiguo dispositivo en el nuevo dispositivo al que est&aacute; transfiriendo la informaci&oacute;n. Durante todo el proceso, no se accede al servidor pervacioo Content Transfer para que no veamos su informaci&oacute;n personal. En otras palabras, puede estar seguro de que no hay forma de que recopilemos su informaci&oacute;n si utiliza nuestra aplicaci&oacute;n para copiar los datos de un tel&eacute;fono a otro.</p>
 <p><strong>Solo recopilamos informaci&oacute;n no personal.</strong></p>
 <p>Para garantizar que su experiencia al usar nuestras aplicaciones sea c&oacute;moda, recopilamos informaci&oacute;n no personal para comprender mejor el comportamiento del usuario, descubrir problemas con las aplicaciones y mejorar nuestros productos. La informaci&oacute;n no personal es informaci&oacute;n que no permite la asociaci&oacute;n directa con ning&uacute;n individuo espec&iacute;fico. Ejemplos de informaci&oacute;n no personal son: ID del dispositivo, n&uacute;mero de IMEI del tel&eacute;fono, modelo de tel&eacute;fono, memoria ROM, operador del tel&eacute;fono, ubicaci&oacute;n, sistema operativo, registros de transferencia, etc.</p>
 <p><strong>Los permisos requeridos por nuestras aplicaciones tienen una raz&oacute;n v&aacute;lida.</strong></p>
@@ -562,12 +562,12 @@ Pervacio Content Transfer le permite transferir datos desde su celular antiguo a
 <p>Modifique o elimine el contenido de su almacenamiento (WRITE_EXTERNAL_STORAGE)</p>
 <p>Configuraci&oacute;n de escritura (WRITE_SETTINGS)</p>
 <p><strong>La seguridad es importante para nosotros.</strong></p>
-<p>Pervacio Content Transfer est&aacute; muy preocupado por salvaguardar la confidencialidad de su informaci&oacute;n. Como se indic&oacute; anteriormente, no recopilamos informaci&oacute;n personal. Con el fin de proteger la informaci&oacute;n no personal, recopilamos datos de acceso y uso no autorizados, empleamos medidas administrativas, f&iacute;sicas y electr&oacute;nicas. Pervacio Content Transfer est&aacute; bien equipado para manejar de forma segura los datos personales o confidenciales de los usuarios, incluida la transmisi&oacute;n de datos al servidor de back-end utilizando criptograf&iacute;a moderna a trav&eacute;s de HTTPS.</p>
+<p>pervacioo Content Transfer est&aacute; muy preocupado por salvaguardar la confidencialidad de su informaci&oacute;n. Como se indic&oacute; anteriormente, no recopilamos informaci&oacute;n personal. Con el fin de proteger la informaci&oacute;n no personal, recopilamos datos de acceso y uso no autorizados, empleamos medidas administrativas, f&iacute;sicas y electr&oacute;nicas. pervacioo Content Transfer est&aacute; bien equipado para manejar de forma segura los datos personales o confidenciales de los usuarios, incluida la transmisi&oacute;n de datos al servidor de back-end utilizando criptograf&iacute;a moderna a trav&eacute;s de HTTPS.</p>
 <p>Tenga en cuenta que las medidas de seguridad que tomamos para proteger su informaci&oacute;n no est&aacute;n absolutamente garantizadas para contrarrestar el acceso no autorizado o el uso de su informaci&oacute;n no personal.</p>
 <p><strong>Ni&ntilde;os</strong></p>
 <p>No brindamos servicios centrados en los ni&ntilde;os. Si tiene menos de 13 a&ntilde;os, solicite permiso a sus padres o tutores antes de utilizar nuestra aplicaci&oacute;n. Se aconseja la supervisi&oacute;n de los padres.</p>
 <p><strong>Cont&aacute;ctenos</strong></p>
-<p>Si tiene alguna pregunta o comentario sobre esta Pol&iacute;tica o nuestras pr&aacute;cticas de privacidad, o para informar cualquier violaci&oacute;n de la Pol&iacute;tica o abuso de los Servicios o el Sitio, cont&aacute;ctenos en <a href="mailto:support@pervacio.com">support@pervacio.com</a></p>
+<p>Si tiene alguna pregunta o comentario sobre esta Pol&iacute;tica o nuestras pr&aacute;cticas de privacidad, o para informar cualquier violaci&oacute;n de la Pol&iacute;tica o abuso de los Servicios o el Sitio, cont&aacute;ctenos en <a href="mailto:support@pervacioo.com">support@pervacioo.com</a></p>
 <p><strong>Actualizaremos esta pol&iacute;tica de privacidad para garantizar sus derechos.</strong></p>
 <p>Para garantizar la calidad de su experiencia y su seguridad, actualizaremos nuestra pol&iacute;tica de privacidad seg&uacute;n sea necesario. Cualquier cambio realizado a esta pol&iacute;tica no reducir&aacute; sus derechos de ninguna manera. Si los cambios a esta pol&iacute;tica son significativos, se mostrar&aacute; una notificaci&oacute;n en la aplicaci&oacute;n. Sin embargo, se pueden hacer cambios m&aacute;s peque&ntilde;os, por lo tanto, revise esta pol&iacute;tica peri&oacute;dicamente. Si no est&aacute; de acuerdo con los cambios a esta pol&iacute;tica, debe dejar de usar cualquiera de los servicios que brindamos y contactarnos de inmediato. El uso continuado de nuestros servicios despu&eacute;s de que se hayan realizado cambios a esta Pol&iacute;tica significa que usted ha aceptado los t&eacute;rminos de la Pol&iacute;tica revisada. Tenga en cuenta que ninguno de nuestros empleados o agentes tiene la autoridad para violar ninguno de los derechos establecidos en esta pol&iacute;tica.</p>
 <p>&nbsp;</p>
@@ -593,16 +593,16 @@ Pervacio Content Transfer le permite transferir datos desde su celular antiguo a
 <p><strong>READ_SMS</strong></p>
 <p>Se usa para permisos que permiten que una aplicaci&oacute;n lea mensajes SMS. Este permiso permite que la aplicaci&oacute;n transfiera mensajes SMS como parte de la funci&oacute;n Replicar tel&eacute;fono. El prop&oacute;sito es recuperar los mensajes SMS del usuario de un tel&eacute;fono antiguo y transferirlos y guardarlos en un tel&eacute;fono nuevo.</p>
 <p><strong>READ_EXTERNAL_STORAGE</strong></p>
-<p>Se usa para permisos que permiten que una aplicaci&oacute;n lea desde almacenamiento externo. Este permiso permite que la aplicaci&oacute;n acceda a cualquier archivo en el almacenamiento externo, por ejemplo, una Tarjeta SD, como parte de la caracter&iacute;stica principal de Pervacio Content Transfer de transferir archivos. El usuario puede seleccionar archivos para transferir y enviar a trav&eacute;s de la conexi&oacute;n inal&aacute;mbrica creada por la aplicaci&oacute;n.</p>
+<p>Se usa para permisos que permiten que una aplicaci&oacute;n lea desde almacenamiento externo. Este permiso permite que la aplicaci&oacute;n acceda a cualquier archivo en el almacenamiento externo, por ejemplo, una Tarjeta SD, como parte de la caracter&iacute;stica principal de pervacioo Content Transfer de transferir archivos. El usuario puede seleccionar archivos para transferir y enviar a trav&eacute;s de la conexi&oacute;n inal&aacute;mbrica creada por la aplicaci&oacute;n.</p>
 <p><strong>WRITE_EXTERNAL_STORAGE</strong></p>
-<p>Se usa para permisos que permiten que una aplicaci&oacute;n copie la informaci&oacute;n del almacenamiento externo. Este permiso permite que la aplicaci&oacute;n acceda al almacenamiento externo, por ejemplo, Tarjeta SD, como parte de la caracter&iacute;stica principal de Pervacio Content Transfer de transferir archivos. El usuario puede elegir guardar los archivos recibidos que se transfieren a trav&eacute;s de la conexi&oacute;n inal&aacute;mbrica al almacenamiento interno o externo. El usuario debe seleccionar guardar en el almacenamiento externo desde la configuraci&oacute;n de la aplicaci&oacute;n.</p>
+<p>Se usa para permisos que permiten que una aplicaci&oacute;n copie la informaci&oacute;n del almacenamiento externo. Este permiso permite que la aplicaci&oacute;n acceda al almacenamiento externo, por ejemplo, Tarjeta SD, como parte de la caracter&iacute;stica principal de pervacioo Content Transfer de transferir archivos. El usuario puede elegir guardar los archivos recibidos que se transfieren a trav&eacute;s de la conexi&oacute;n inal&aacute;mbrica al almacenamiento interno o externo. El usuario debe seleccionar guardar en el almacenamiento externo desde la configuraci&oacute;n de la aplicaci&oacute;n.</p>
 <p><strong>WRITE_SETTINGS</strong></p>
 <p>Se usa para permisos que permiten que la aplicaci&oacute;n copie la Configuraci&oacute;n. El prop&oacute;sito es copiar la configuraci&oacute;n del usuario, que se recupera de un tel&eacute;fono antiguo, en la Configuraci&oacute;n designada en un tel&eacute;fono nuevo.</p>
              ]]>
     </string>
     <string name="enter_your_id">Ingrese su identificación</string>
     <string name="invalid_id">* ID no válido</string>
-    <string name="app_description">Pervacio Content Transfer le permite transferir datos desde su celular antiguo a un celular nuevo.</string>
+    <string name="app_description">pervacioo Content Transfer le permite transferir datos desde su celular antiguo a un celular nuevo.</string>
     <string name="str_content">Content</string>
     <string name="str_transfer">Transfer</string>
     <string name="str_whatsapp_media_exclude_alert">WhatsApp Media (Fotos y Videos) no se transferirá al dispositivo de destino.</string>
@@ -676,8 +676,8 @@ Pervacio Content Transfer le permite transferir datos desde su celular antiguo a
     <!-- IMEI Capture Screen -->
     <!--IMEI-->
     <string name="imei_steps_heading">Por favor capture el IMEI del dispositivo siguiendo los siguientes pasos:</string>
-    <string name="imei_read_instructions_10_step_1">1. Este es el Asistente de Pervacio, lo guiará para capturar IMEI</string>
-    <string name="imei_read_instructions_10_step_2">2. Presione el botón Inicio y siga el Asistente de Pervacio</string>
+    <string name="imei_read_instructions_10_step_1">1. Este es el Asistente de pervacioo, lo guiará para capturar IMEI</string>
+    <string name="imei_read_instructions_10_step_2">2. Presione el botón Inicio y siga el Asistente de pervacioo</string>
     <string name="imei_read_instructions_10_bubble_message">Marca *#06#,\nEspera a que aparezca el \ncronómetro de cuenta atrás.</string>
     <string name="imei_search_time_out">Marca *#06#.  El IMEI del equipo se visualizará. \nEspera a que aparezca el \ncronómetro de cuenta atrás.</string>
     <string name="permission_show_over_other_apps">Habilite el permiso \"Mostrar otras aplicaciones\" para continuar con el diagnóstico.</string>

@@ -16,10 +16,8 @@ import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.pervacio.wds.R;
+import com.pervacioo.wds.R;
 
-import org.pervacio.onediaglib.diagtests.TestResult;
-import org.pervacio.onediaglib.diagtests.TestSim;
 
 public class ModeReceiverClass extends BroadcastReceiver {
 

@@ -15,7 +15,7 @@
                             true  -  to  enable
                             false - to disable
 
-   6. Customer Name - Customer Name Ex: Pervacio, Sprint
+   6. Customer Name - Customer Name Ex: pervacioo, Sprint
 
    7. Certification Required - true to enable(To check device certification)
                              - false to disable
@@ -33,18 +33,18 @@
 
    <!-- Servers:
 
-    Rogers        : -  https://rogers.pervacioone.com
-    Orange        : -  https://orangepilot.pervacioone.com , https://orangeplwdsuat.pervacioone.com/
-    Pervacio(Dev) : -  http://182.75.101.100:8080
-    Republic      : -  https://republicwireless.pervacioone.com
+    Rogers        : -  https://rogers.pervaciooone.com
+    Orange        : -  https://orangepilot.pervaciooone.com , https://orangeplwdsuat.pervaciooone.com/
+    pervacioo(Dev) : -  http://182.75.101.100:8080
+    Republic      : -  https://republicwireless.pervaciooone.com
     Local 1       : -  http://192.168.0.45:8080/ - QA Dev
     Local 2       : -  http://192.168.0.67:8080/ - For Developers, Experimental Server
-    TMobile       : -  https://tmowds.pervacioone.com/
-    OrangeSenegal : -  https://orangesewdsuat.pervacioone.com/
-    Sprint        : -  https://sprintqa.pervacioone.com
-    WDSDemo        : -  https://wdsdemo.pervacioone.com
-    BellUAT        : -  https://bellwdsuat.pervacioone.com
-                        https://bellwds.pervacioone.com
+    TMobile       : -  https://tmowds.pervaciooone.com/
+    OrangeSenegal : -  https://orangesewdsuat.pervaciooone.com/
+    Sprint        : -  https://sprintqa.pervaciooone.com
+    WDSDemo        : -  https://wdsdemo.pervaciooone.com
+    BellUAT        : -  https://bellwdsuat.pervaciooone.com
+                        https://bellwds.pervaciooone.com
     -->
 
 <!--Product: MMDS
@@ -53,7 +53,7 @@ Flavor: sprintMSDS-->
    <product>MMDS</product>
    <transfer_mode>WDIRECT</transfer_mode>
    <authentication_required>false</authentication_required>
-   <server_url>https://bellwds.pervacioone.com</server_url>
+   <server_url>https://bellwds.pervaciooone.com</server_url>
    <transaction_logging>false</transaction_logging>
    <customer>sprint</customer>
    <certification_required>false</certification_required>
@@ -66,7 +66,7 @@ Flavor: sprintMSDS-->
    <product>WDS</product>
    <transfer_mode>WDIRECT</transfer_mode>
    <authentication_required>true</authentication_required>
-   <server_url>https://bellwds.pervacioone.com</server_url>
+   <server_url>https://bellwds.pervaciooone.com</server_url>
    <transaction_logging>true</transaction_logging>
    <customer>bell</customer>
    <certification_required>false</certification_required>
@@ -97,12 +97,12 @@ Playstore
    <transfer_mode>WDIRECT</transfer_mode>
    <authentication_required>true</authentication_required>
 <!--
-   <server_url>https://wdsdemo.pervacioone.com</server_url>
+   <server_url>https://wdsdemo.pervaciooone.com</server_url>
 -->
-   <!--<server_url>https://appstore.pervacio.com</server_url>-->
+   <!--<server_url>https://appstore.pervacioo.com</server_url>-->
    <server_url>https://appstore.mobilicis.com</server_url>
    <transaction_logging>true</transaction_logging>
-   <customer>Pervacio</customer>
+   <customer>pervacioo</customer>
    <certification_required>false</certification_required>
    <estimation_required>true</estimation_required>
    <cloud_pairing>true</cloud_pairing>
@@ -113,8 +113,8 @@ Playstore
 <product>WDS</product>
 <transfer_mode>WDIRECT</transfer_mode>
 <authentication_required>true</authentication_required>
-<server_url>https://tmswds.pervacio.com</server_url>
-&lt;!&ndash;    <server_url>https://appstore.pervacio.com</server_url>&ndash;&gt;
+<server_url>https://tmswds.pervacioo.com</server_url>
+&lt;!&ndash;    <server_url>https://appstore.pervacioo.com</server_url>&ndash;&gt;
 <transaction_logging>true</transaction_logging>
 <customer>TMS</customer>
 <certification_required>false</certification_required>

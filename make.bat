@@ -120,17 +120,17 @@ goto end
 :help
 echo ---------------------------------------------------------------------------------------------------------------
 echo USAGE: make [Build Type] [is lib] [Product Flavour ][Product Name] [Transfer Mode][Authentication][Server URL][LOGGING][Customer][CERTIFICATION CHECK][Estimation Time][CLOUD PAIRING][DYNAMIC ESTIMATION][Version Number][is lib]
-echo Ex: make debug obfuscation playstore WDS WDIRECT false https://wds.pervacioone.com true Pervacio false true true false 1.0.0 no
+echo Ex: make debug obfuscation playstore WDS WDIRECT false https://wds.pervaciooone.com true pervacioo false true true false 1.0.0 no
 echo ---------------------------------------------------------------------------------------------------------------
 echo [debug, release]                		Indicates the type of the build
 echo [yes, no]			                    Indicates to build APK or Lib
-echo [pervacio,sprint]                		Indicates the product flavour
+echo [pervacioo,sprint]                		Indicates the product flavour
 echo [WDS,MMDS]                			    Indicates the name of the product
 echo [WLAN,WDIRECT]                			Indicates data transfer mode
 echo [true,false]                			Indicates Store Authentication required or not.
 echo [SERVER URL]                	        Indicates server url for logging and Authentication.
 echo [true,false]                			Indicates Database logging required or not.
-echo [Customer Name Ex: Pervacio]           Indicates Customer Name.
+echo [Customer Name Ex: pervacioo]           Indicates Customer Name.
 echo [true,false]                           Indicates Certification check required or not.
 echo [true,false]                           Indicates Estimation time check required or not.
 echo [true,false]                           Indicates Cloud pairing required or not.

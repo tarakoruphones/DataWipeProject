@@ -22,7 +22,7 @@
     <string name="ept_page_title_default">@string/app_name</string>
     <string name="ept_page_title_content_transfer">@string/app_name</string>
 
-    <string name="terms_and_conditions_text"> By downloading and using the ORU Content Transfer app, these terms will automatically apply to you. Please make sure therefore that you read them carefully before using the app. Please be aware that you cannot send it on to anyone else, and you\'re not allowed to copy, or modify the app, any part of the app, or our trademarks, in any way.  You\'re not allowed to attempt to extract the source code of the app, you also shouldn\'t try to translate the app or make derivative versions.  The app itself, and all the trademarks, copyright, database rights and intellectual property rights related to it, still belong to Pervacio Inc.</string>
+    <string name="terms_and_conditions_text"> By downloading and using the ORU Content Transfer app, these terms will automatically apply to you. Please make sure therefore that you read them carefully before using the app. Please be aware that you cannot send it on to anyone else, and you\'re not allowed to copy, or modify the app, any part of the app, or our trademarks, in any way.  You\'re not allowed to attempt to extract the source code of the app, you also shouldn\'t try to translate the app or make derivative versions.  The app itself, and all the trademarks, copyright, database rights and intellectual property rights related to it, still belong to pervacioo Inc.</string>
 
     <string name="text_suggestionSource">1.Forget the Store Wi-Fi network on this device.
               \n\n2.Uninstall the Wireless Content Transfer app from this device.
@@ -33,7 +33,7 @@
         \n\n3.Remember to factory reset the Source device if needed.</string>
 
     <string name="text_suggestionDest2">1.Forget the Store Wi-Fi network on this device.
-              \n\n2.Uninstall the Pervacio Content Transfer app from this device.
+              \n\n2.Uninstall the pervacioo Content Transfer app from this device.
               \n\n3.Remember to factory reset the Old device if needed.
               \n\n4.On Exit, when prompted, please select Messaging app as the default SMS application.
     </string>

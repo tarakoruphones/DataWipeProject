@@ -15,7 +15,7 @@
 
 <resources>
 
-    <string name="app_name">Pervacio Content Transfer</string>
+    <string name="app_name">pervacioo Content Transfer</string>
     <string name="ept_empty_line">\n</string>
 
     <string name="ept_next_button">Dalej</string>
@@ -243,7 +243,7 @@
     <string name="storeid_message">Wprowadz identyfikator sklepu</string>
     <string name="terms_and_condition_dialog_header">Warunki i Regulamin</string>
     <string name="terms_and_condition_dialog_header_acknowledge">Nalezy zapoznac sie z ponizszymi warunkami, aby kontynuowac.</string>
-    <string name="wds_terms_and_conditions_text">Pobierając aplikację Kopia Danych Pervacio i korzystając z niej, warunki te będą Ciebie obowiązywać. Przed użyciem aplikacji upewnij się, że dokładnie je przeczytałeś. Należy pamiętać, że nie można przesyłać aplikacji nikomu innemu, nie wolno w żaden sposób kopiować ani jej modyfikować, żadnej jej części lub naszych znaków towarowych. Nie możesz próbować wyodrębnić kodu źródłowego aplikacji, nie powinieneś także próbować tłumaczyć aplikacji ani tworzyć wersji pochodnych. Sama aplikacja oraz wszystkie znaki handlowe, prawa autorskie, prawa do baz danych i związane z nią prawa własności intelektualnej nadal należą do Pervacio Kopia Danych.</string>
+    <string name="wds_terms_and_conditions_text">Pobierając aplikację Kopia Danych pervacioo i korzystając z niej, warunki te będą Ciebie obowiązywać. Przed użyciem aplikacji upewnij się, że dokładnie je przeczytałeś. Należy pamiętać, że nie można przesyłać aplikacji nikomu innemu, nie wolno w żaden sposób kopiować ani jej modyfikować, żadnej jej części lub naszych znaków towarowych. Nie możesz próbować wyodrębnić kodu źródłowego aplikacji, nie powinieneś także próbować tłumaczyć aplikacji ani tworzyć wersji pochodnych. Sama aplikacja oraz wszystkie znaki handlowe, prawa autorskie, prawa do baz danych i związane z nią prawa własności intelektualnej nadal należą do pervacioo Kopia Danych.</string>
     <string name="button_i_agree">Wyrazam zgode</string>
     <string name="button_i_disagree">Nie wyrazam zgody</string>
     <string name="connecting_to_server">Laczenie z serwerem</string>
@@ -315,7 +315,7 @@
     <string name="source_or_destination_title">Czy to jest urządzenie Źródłowe czy Docelowe?</string>
     <string name="other_device_type_title">Jaki jest typ drugiego urządzenia?</string>
     <string name="accept">Zaakceptuj</string>
-    <string name="welcome_screen_title">Witamy w Pervacio \n Content Transfer</string>
+    <string name="welcome_screen_title">Witamy w pervacioo \n Content Transfer</string>
     <string name="lets_get_started">Zacznijmy!</string>
     <string name="elapsed_time">Upływający czas : </string>
     <string name="estimation">Szacowanie: </string>
@@ -336,7 +336,7 @@
     <string name="read_more">Read the Sprint\'s <a href="http://www.sprint.com/privacypolicy">Privacy Policy</a>.</string>
     <string name="build_release_date">Build release date</string>
     <string name="version_number">Version number</string>
-    <string name="app_created">This app was created for Sprint by Pervacio, Inc.</string>
+    <string name="app_created">This app was created for Sprint by pervacioo, Inc.</string>
     <string name="comment_box">Please leave a comment about the app.</string>
     <string name="about">About</string>
     <string name="text_message">Sprint Content Transfer quickly and easily allows you to transfer the data between devices.</string>
@@ -392,7 +392,7 @@
     <string name="low_battery">Niski poziom baterii</string>
     <string name="battery_level">Poziom naładowania baterii jest : </string>
     <string name="low_battery_text_message">\n\nPodłącz urządzenie do źródła zasilania</string>
-    <string name="str_write_permission"><![CDATA[Zezwól <b>Pervacio Content Transfer</b> na dostęp do ustawień urządzenia.<br/>(Tapeta, Limit czasu ekranu, Jasność, Głośność)]]></string>
+    <string name="str_write_permission"><![CDATA[Zezwól <b>pervacioo Content Transfer</b> na dostęp do ustawień urządzenia.<br/>(Tapeta, Limit czasu ekranu, Jasność, Głośność)]]></string>
     <string name="str_allow">Zezwól</string>
     <string name="str_deny">Nie zezwalam</string>
     <string name="str_data_types_not_transferred">Poniższe typy danych nie zostaną przeniesione, ponieważ uprawnienia nie zostały przyznane</string>
@@ -405,7 +405,7 @@
         \nDo you want to resume the old transaction or start a new one?</string>
     <string name="str_rate_now">Rate Now</string>
     <string name="str_not_now">Not Now</string>
-    <string name="str_rateapp_msg">Enjoying Pervacio Content Transfer ?</string>
+    <string name="str_rateapp_msg">Enjoying pervacioo Content Transfer ?</string>
     <string name="str_tap_a_star">Tap a star to rate it on the Play Store.</string>
 
     <string name="str_enter_emp_id">Wpisz swój 5-cio cyfrowy kod BSCS</string>
@@ -445,10 +445,10 @@
     <string name="transfer_cancelled_msg">Kliknij OK i jeśli to konieczne uruchom ponownie.</string>
     <string name="str_terms_condition">Regulaminem</string>
     <string name="str_privacy_statement">Oświadczeniem o ochronie prywatności</string>
-    <string name="permissions_policy_header">Witamy w Kopii Danych Pervacio</string>
+    <string name="permissions_policy_header">Witamy w Kopii Danych pervacioo</string>
     <string name="permissions_policy_body">
     <![CDATA[
-Kopia Danych Pervacio umożliwia przesyłanie danych ze starego urządzenia na nowe. Podczas użytkowania ta aplikacja wymaga następujących uprawnień do świadczenia usług przesyłania danych.<br>
+Kopia Danych pervacioo umożliwia przesyłanie danych ze starego urządzenia na nowe. Podczas użytkowania ta aplikacja wymaga następujących uprawnień do świadczenia usług przesyłania danych.<br>
 <br><strong>Kontakty</strong>.
 <br> Służy do przesyłania kontakt&oacute;w<br>
 <br><strong>Kalendarze</strong>
@@ -472,9 +472,9 @@ Kopia Danych Pervacio umożliwia przesyłanie danych ze starego urządzenia na n
     </string>
     <string name="privacy_policy">
      <![CDATA[
-<p><strong>PERVACIO KOPIA DANYCH </strong><strong>POLITYKA PRYWATNOŚCI</strong></p>
-<p>Pervacio Inc., tw&oacute;rca Pervacio Kopia Danych, uznaje, że twoja prywatność jest ważna i że twoje dane osobowe muszą być chronione. Niniejsza polityka prywatności opisuje informacje, kt&oacute;re zbieramy od Ciebie, jak je wykorzystujemy i co robimy, aby je chronić.</p>
-<p>Przeczytaj uważnie i okresowo niniejsze zasady. Skontaktuj się z nami pod adresem support@pervacio.com, jeśli masz jakiekolwiek pytania dotyczące treści niniejszej polityki.</p>
+<p><strong>pervacioo KOPIA DANYCH </strong><strong>POLITYKA PRYWATNOŚCI</strong></p>
+<p>pervacioo Inc., tw&oacute;rca pervacioo Kopia Danych, uznaje, że twoja prywatność jest ważna i że twoje dane osobowe muszą być chronione. Niniejsza polityka prywatności opisuje informacje, kt&oacute;re zbieramy od Ciebie, jak je wykorzystujemy i co robimy, aby je chronić.</p>
+<p>Przeczytaj uważnie i okresowo niniejsze zasady. Skontaktuj się z nami pod adresem support@pervacioo.com, jeśli masz jakiekolwiek pytania dotyczące treści niniejszej polityki.</p>
 <p><strong>Informacje, kt&oacute;re zbieramy, są niezbędne do świadczenia naszych usług.</strong></p>
 <p>Nie zbieramy żadnych informacji od Ciebie ani o Tobie, kt&oacute;re nie dotyczą usług świadczonych przez naszą aplikację. Wszelkie informacje, kt&oacute;re zbieramy od Ciebie, są przechowywane jako połączone tylko z twoim kontem, chyba że zaznaczono inaczej w aplikacji. Traktujemy twoją prywatność poważnie i będziemy wykorzystywać i ujawniać informacje tylko wtedy, gdy będą zgodne z warunkami opisanymi poniżej.</p>
 <p><strong>Nie zbieramy danych osobowych.</strong></p>
@@ -501,7 +501,7 @@ Kopia Danych Pervacio umożliwia przesyłanie danych ze starego urządzenia na n
 <p><strong>Dzieci</strong></p>
 <p>Nie świadczymy usług skoncentrowanych na dzieciach. Jeśli nie masz 13 lat, przed użyciem naszej aplikacji zapytaj o zgodę rodzica lub opiekuna. Zaleca się nadz&oacute;r rodzicielski.</p>
 <p><strong>Skontaktuj się z nami</strong></p>
-<p>Jeśli masz jakieś pytania lub komentarze dotyczące niniejszej Polityki lub naszych praktyk dotyczących prywatności, lub aby zgłosić naruszenie zasad lub nadużycie Usług lub Witryny, skontaktuj się z nami pod adresem <a href="mailto:support@pervacio.com">support@pervacio.com</a></p>
+<p>Jeśli masz jakieś pytania lub komentarze dotyczące niniejszej Polityki lub naszych praktyk dotyczących prywatności, lub aby zgłosić naruszenie zasad lub nadużycie Usług lub Witryny, skontaktuj się z nami pod adresem <a href="mailto:support@pervacioo.com">support@pervacioo.com</a></p>
 <p><strong>Zaktualizujemy tę politykę prywatności, aby zapewnić Twoje prawa.</strong></p>
 <p>Aby zapewnić Tobie odpowiednią jakość i bezpieczeństwo, w razie potrzeby będziemy aktualizować naszą politykę prywatności. Wszelkie zmiany wprowadzone w niniejszych zasadach i nie ograniczają twoich praw. Jeśli zmiany w tych zasadach są znaczące, aplikacja wyświetli powiadomienie. Mniejsze zmiany mogą jednak zostać wprowadzone, dlatego należy okresowo sprawdzać te zasady. Jeśli nie zgadzasz się na jakiekolwiek zmiany w tej polityce, powinieneś natychmiast zaprzestać korzystania z kt&oacute;rejkolwiek z usług, kt&oacute;re świadczymy i skontaktować się z nami. Dalsze korzystanie z naszych usług po wprowadzeniu zmian do niniejszej Polityki oznacza akceptację warunk&oacute;w zmienionej Polityki. Należy pamiętać, że żaden z naszych pracownik&oacute;w lub agent&oacute;w nie jest upoważniony do naruszenia jakichkolwiek praw określonych w niniejszej polityce.</p>
 <p><strong>&nbsp;</strong></p>
@@ -526,15 +526,15 @@ Kopia Danych Pervacio umożliwia przesyłanie danych ze starego urządzenia na n
 <p><strong>READ_SMS</strong></p>
 <p>Służy do uprawnień, kt&oacute;re pozwalają aplikacji na odczyt wiadomości SMS. To uprawnienie pozwala aplikacji na przesyłanie wiadomości SMS w ramach funkcji replikacji telefonu. Celem jest odzyskanie wiadomości SMS użytkownika ze starego telefonu oraz przeniesienie i zapisanie nowego telefonu.</p>
 <p><strong>READ_EXTERNAL_STORAGE</strong></p>
-<p>Służy do uprawnień, kt&oacute;re pozwalają aplikacji na odczyt z pamięci zewnętrznej. To uprawnienie pozwala aplikacji na dostęp do dowolnych plik&oacute;w w pamięci zewnętrznej, np. Karta SD, jako część podstawowej funkcji przesyłania plik&oacute;w przez Pervacio Kopia Danych. Użytkownik może wybrać pliki do przesłania i wysłać przez połączenie bezprzewodowe utworzone przez aplikację.</p>
+<p>Służy do uprawnień, kt&oacute;re pozwalają aplikacji na odczyt z pamięci zewnętrznej. To uprawnienie pozwala aplikacji na dostęp do dowolnych plik&oacute;w w pamięci zewnętrznej, np. Karta SD, jako część podstawowej funkcji przesyłania plik&oacute;w przez pervacioo Kopia Danych. Użytkownik może wybrać pliki do przesłania i wysłać przez połączenie bezprzewodowe utworzone przez aplikację.</p>
 <p><strong>WRITE_ EXTERNAL_STORAGE</strong></p>
-<p>Służy do uprawnień, kt&oacute;re umożliwiają aplikacji zapisywanie w pamięci zewnętrznej. To uprawnienie pozwala aplikacji na dostęp do pamięci zewnętrznej, np. Karta SD, jako część podstawowej funkcji przesyłania plik&oacute;w przez Pervacio Kopia Danych. Użytkownik może zapisać zapisane pliki, kt&oacute;re są przesyłane za pośrednictwem połączenia bezprzewodowego do pamięci wewnętrznej lub zewnętrznej. Użytkownik musi wybrać zapisywanie w pamięci zewnętrznej w ustawieniach aplikacji.</p>
+<p>Służy do uprawnień, kt&oacute;re umożliwiają aplikacji zapisywanie w pamięci zewnętrznej. To uprawnienie pozwala aplikacji na dostęp do pamięci zewnętrznej, np. Karta SD, jako część podstawowej funkcji przesyłania plik&oacute;w przez pervacioo Kopia Danych. Użytkownik może zapisać zapisane pliki, kt&oacute;re są przesyłane za pośrednictwem połączenia bezprzewodowego do pamięci wewnętrznej lub zewnętrznej. Użytkownik musi wybrać zapisywanie w pamięci zewnętrznej w ustawieniach aplikacji.</p>
 <p><strong>WRITE_SETTINGS</strong></p>
 <p>Służy do uprawnień, kt&oacute;re umożliwiają aplikacji zapisywanie ustawień. Celem jest zapisanie ustawień użytkownika pobranych ze starego telefonu do wyznaczonych Ustawień na nowym telefonie.</p>
         ]]>
     </string>
     <string name="enter_your_id">Wprowadź identyfikator</string>
-    <string name="app_description">Kopia Danych Pervacio  umożliwia przesyłanie danych ze starego urządzenia na nowe.</string>
+    <string name="app_description">Kopia Danych pervacioo  umożliwia przesyłanie danych ze starego urządzenia na nowe.</string>
     <string name="str_content">Content</string>
     <string name="str_transfer">Transfer</string>
 </resources>

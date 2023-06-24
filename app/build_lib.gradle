@@ -18,7 +18,7 @@ android {
     buildToolsVersion '28.0.0'
     flavorDimensions "default"
     defaultConfig {
-        //applicationId "com.pervacio.wds"
+        //applicationId "com.pervacioo.wds"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 17
@@ -41,8 +41,8 @@ android {
        }
 
     productFlavors {
-        pervacio {
-            //applicationId "com.pervacio.wds"
+        pervacioo {
+            //applicationId "com.pervacioo.wds"
             manifestPlaceholders = [appLabel: "Content Transfer"]
             dimension "default"
         }
@@ -53,19 +53,19 @@ android {
             targetSdkVersion 26
         }
         sprintMSDS {
-            //applicationId "com.pervacio.wds"
+            //applicationId "com.pervacioo.wds"
             manifestPlaceholders = [appLabel: "Sprint Content Transfer"]
             dimension "default"
             targetSdkVersion 26
         }
-        pervacioMSDS {
-            //applicationId "com.pervacio.wds"
+        pervaciooMSDS {
+            //applicationId "com.pervacioo.wds"
             manifestPlaceholders = [appLabel: "Content Transfer"]
             dimension "default"
             targetSdkVersion 26
         }
         tms {
-            //applicationId "com.pervacio.tms"
+            //applicationId "com.pervacioo.tms"
             manifestPlaceholders = [appLabel: "TMS Content Transfer"]
             dimension "default"
 			versionCode 11
@@ -79,26 +79,26 @@ android {
             targetSdkVersion 26
         }
         bell {
-            //applicationId "com.pervacio.wct"
+            //applicationId "com.pervacioo.wct"
             manifestPlaceholders = [appLabel: "Content Transfer"]
             dimension "default"
             targetSdkVersion 26
         }
         orange {
-            //applicationId "com.pervacio.wds"
+            //applicationId "com.pervacioo.wds"
             manifestPlaceholders = [appLabel: "Kopia Danych"]
             dimension "default"
             targetSdkVersion 22
         }
         o2 {
-            //applicationId "com.pervacio.wct"
+            //applicationId "com.pervacioo.wct"
             manifestPlaceholders = [appLabel: "Content Transfer"]
             dimension "default"
             targetSdkVersion 26
         }
         playstore {
-            //applicationId "com.pervacio.wds"
-            manifestPlaceholders = [appLabel: "Pervacio Content Transfer"]
+            //applicationId "com.pervacioo.wds"
+            manifestPlaceholders = [appLabel: "pervacioo Content Transfer"]
             dimension "default"
             targetSdkVersion 29
             versionCode 17
@@ -124,9 +124,9 @@ dependencies {
 
     implementation files('libs/jmdns-3.4.1.jar')
     implementation 'com.journeyapps:zxing-android-embedded:3.3.0' // upgrading to new version of zxing
-    implementation 'com.pervacio.crashreportlib:crashreportlib@aar'
+    implementation 'com.pervacioo.crashreportlib:crashreportlib@aar'
 
-    implementation 'org.pervacio.onediaglib:onediaglib@aar'
+    implementation 'org.pervacioo.onediaglib:onediaglib@aar'
 
     implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'com.google.android.gms:play-services-drive:7.0.0'

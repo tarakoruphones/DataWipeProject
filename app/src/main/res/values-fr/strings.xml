@@ -15,7 +15,7 @@
 
 <resources>
 
-    <string name="app_name">Pervacio Content Transfer</string>
+    <string name="app_name">pervacioo Content Transfer</string>
     <string name="ept_empty_line">\n</string>
 
     <string name="ept_next_button">Suivant</string>
@@ -251,7 +251,7 @@
     <string name="storeid_message">Entrez le numéro ID de la mémoire</string>
     <string name="terms_and_condition_dialog_header">Termes et conditions</string>
     <string name="terms_and_condition_dialog_header_acknowledge">Veuillez accepter les termes et les conditions ci-dessous pour continuer.</string>
-    <string name="wds_terms_and_conditions_text"> En téléchargeant et en utilisant l\'application Pervacio Content Transfer, ces conditions s\'appliqueront automatiquement à vous. Veuillez donc vous assurer de les lire attentivement avant d\'utiliser l\'application. Veuillez noter que vous ne pouvez pas l\'envoyer à quelqu\'un d\'autre et que vous n\'êtes pas autorisé à copier ou modifier l\'application, une partie de l\'application ou nos marques de commerce, de quelque manière que ce soit. Vous n\'êtes pas autorisé à tenter d\'extraire le code source de l\'application, vous ne devez pas non plus essayer de traduire l\'application ou de créer des versions dérivées. L\'application elle-même, ainsi que toutes les marques, droits d\'auteur, droits de base de données et droits de propriété intellectuelle qui y sont liés, appartiennent toujours à Pervacio Content Transfer. </string>
+    <string name="wds_terms_and_conditions_text"> En téléchargeant et en utilisant l\'application pervacioo Content Transfer, ces conditions s\'appliqueront automatiquement à vous. Veuillez donc vous assurer de les lire attentivement avant d\'utiliser l\'application. Veuillez noter que vous ne pouvez pas l\'envoyer à quelqu\'un d\'autre et que vous n\'êtes pas autorisé à copier ou modifier l\'application, une partie de l\'application ou nos marques de commerce, de quelque manière que ce soit. Vous n\'êtes pas autorisé à tenter d\'extraire le code source de l\'application, vous ne devez pas non plus essayer de traduire l\'application ou de créer des versions dérivées. L\'application elle-même, ainsi que toutes les marques, droits d\'auteur, droits de base de données et droits de propriété intellectuelle qui y sont liés, appartiennent toujours à pervacioo Content Transfer. </string>
     <string name="button_i_agree">J’accepte</string>
     <string name="button_i_disagree">Je n’accepte pas</string>
     <string name="connecting_to_server">Connexion au serveur</string>
@@ -340,7 +340,7 @@
     <string name="old_or_new_title">Is this the old or new device?</string>
     <string name="other_device_type_title">Quel-est le type de l\'autre appareil?</string>
     <string name="accept">Accepter</string>
-    <string name="welcome_screen_title">Bienvenue dans Pervacio \n Content Transfer</string>
+    <string name="welcome_screen_title">Bienvenue dans pervacioo \n Content Transfer</string>
     <string name="lets_get_started">C\'est parti!</string>
     <string name="elapsed_time">Temps écoulé : </string>
     <string name="estimation">Estimation : </string>
@@ -358,7 +358,7 @@
     <string name="read_more">Read the Sprint\'s <a href="http://www.sprint.com/privacypolicy">Privacy Policy</a>.</string>
     <string name="build_release_date">Build release date</string>
     <string name="version_number">Version number</string>
-    <string name="app_created">This app was created for Sprint by Pervacio, Inc.</string>
+    <string name="app_created">This app was created for Sprint by pervacioo, Inc.</string>
     <string name="comment_box">Please leave a comment about the app.</string>
     <string name="about">About</string>
     <string name="text_message">Sprint Content Transfer quickly and easily allows you to transfer the data between devices.</string>
@@ -441,7 +441,7 @@
     </string-array>
     <string name="customize"><![CDATA[<b>Customize</b>]]></string>
     <string name="no">Pas de</string>
-    <string name="str_write_permission"><![CDATA[Autoriser <b>Pervacio Content Transfer</b> à accès les paramètres de l\'appareil.<br/>(Fond d\'écran,Veille de l\'écran,Luminosité,Le volume)]]></string>
+    <string name="str_write_permission"><![CDATA[Autoriser <b>pervacioo Content Transfer</b> à accès les paramètres de l\'appareil.<br/>(Fond d\'écran,Veille de l\'écran,Luminosité,Le volume)]]></string>
     <string name="app_running_in_background">Faites passer l’application au premier plan.</string>
     <string name="str_skip">SAUTER</string>
     <string name="str_grant_permission">Cliquez ici pour accorder des autorisations.</string>
@@ -464,10 +464,10 @@
     <string name="location_permission_required_msg">Accordez l\'autorisation de Localisation car nécessaire pour que l\'application fonctionne correctement.</string>
     <string name="str_terms_condition">conditions générales</string>
     <string name="str_privacy_statement">déclaration de confidentialité</string>
-    <string name="permissions_policy_header">Bienvenue dans Pervacio Content Transfer</string>
+    <string name="permissions_policy_header">Bienvenue dans pervacioo Content Transfer</string>
     <string name="permissions_policy_body">
     <![CDATA[
-<p>Pervacio Content Transfer vous permet de transf&eacute;rer des donn&eacute;es de votre ancien appareil vers un nouvel appareil. Pendant l\'utilisation, cette application a besoin des autorisations suivantes pour fournir des services de transfert de donn&eacute;es.<br /><br /><strong>Contacts</strong><br /> Utilis&eacute; pour transf&eacute;rer des contacts<br>
+<p>pervacioo Content Transfer vous permet de transf&eacute;rer des donn&eacute;es de votre ancien appareil vers un nouvel appareil. Pendant l\'utilisation, cette application a besoin des autorisations suivantes pour fournir des services de transfert de donn&eacute;es.<br /><br /><strong>Contacts</strong><br /> Utilis&eacute; pour transf&eacute;rer des contacts<br>
 <br><strong>Historique des appels</strong>
 <br>Utilis&eacute; pour transf&eacute;rer l\'historique des appels<br>
 <br><strong>SMS</strong>
@@ -481,9 +481,9 @@
     </string>
     <string name="privacy_policy">
      <![CDATA[
-<p><strong>Pervacio Content Transfert de contenu POLITIQUE CONFIDENTIALIT&Eacute;</strong></p>
-<p>Pervacio Inc., cr&eacute;ateur de Pervacio Content Transfer, reconna&icirc;t que votre vie priv&eacute;e est importante et que vos renseignements personnels doivent &ecirc;tre prot&eacute;g&eacute;s. Cette politique de confidentialit&eacute; d&eacute;crit les informations que nous recueillons aupr&egrave;s de vous, comment nous les utilisons et ce que nous faisons pour le prot&eacute;ger.</p>
-<p>Merci de lire attentivement cette politique et p&eacute;riodiquement. Merci de nous contacter &agrave; support@pervacio.com si vous avez des questions sur le contenu de cette politique.</p>
+<p><strong>pervacioo Content Transfert de contenu POLITIQUE CONFIDENTIALIT&Eacute;</strong></p>
+<p>pervacioo Inc., cr&eacute;ateur de pervacioo Content Transfer, reconna&icirc;t que votre vie priv&eacute;e est importante et que vos renseignements personnels doivent &ecirc;tre prot&eacute;g&eacute;s. Cette politique de confidentialit&eacute; d&eacute;crit les informations que nous recueillons aupr&egrave;s de vous, comment nous les utilisons et ce que nous faisons pour le prot&eacute;ger.</p>
+<p>Merci de lire attentivement cette politique et p&eacute;riodiquement. Merci de nous contacter &agrave; support@pervacioo.com si vous avez des questions sur le contenu de cette politique.</p>
 <p><strong>Les informations que nous recueillons est n&eacute;cessaire pour fournir nos services.</strong></p>
 <p>Nous ne collectons aucune information &agrave; votre sujet qui n\'a rien &agrave; voir avec les services fournis par notre application. Toute information que nous recueillons aupr&egrave;s de vous est stock&eacute; comme seul &ecirc;tre connect&eacute; &agrave; votre compte &agrave; moins qu\'il ne soit par ailleurs not&eacute; sur l\'application. Nous prenons votre vie priv&eacute;e au s&eacute;rieux et n\'utilisons ni ne communiquons des informations que si elles sont align&eacute;es avec les conditions &eacute;nonc&eacute;es ci-dessous.</p>
 <p><strong>Nous ne recueillons pas de renseignements personnels.</strong></p>
@@ -508,7 +508,7 @@
 <p><strong>Enfants</strong></p>
 <p>Nous ne fournissons pas le focus de service sur les enfants. Si vous avez moins de 13ans, Merci de demander la permission de votre parent ou d\'un tuteur avant d\'utiliser notre application. Il est conseill&eacute; d&rsquo;&ecirc;tre sous la surveillance des parents.</p>
 <p><strong>Nous contacter</strong></p>
-<p>Si vous avez des questions ou des commentaires au sujet de cette politique ou nos pratiques en mati&egrave;re de confidentialit&eacute;, ou pour signaler toute violation de la politique ou l&rsquo;abus des Services ou du site, Merci de nous contactez &agrave; support@pervacio.com</p>
+<p>Si vous avez des questions ou des commentaires au sujet de cette politique ou nos pratiques en mati&egrave;re de confidentialit&eacute;, ou pour signaler toute violation de la politique ou l&rsquo;abus des Services ou du site, Merci de nous contactez &agrave; support@pervacioo.com</p>
 <p><strong>Nous mettrons &agrave; jour cette politique de confidentialit&eacute; pour garantir vos droits.</strong></p>
 <p>Pour assurer la qualit&eacute; de votre exp&eacute;rience et votre s&eacute;curit&eacute;, nous mettrons &agrave; jour notre politique de confidentialit&eacute; au besoin. Toute modification apport&eacute;e &agrave; cette politique ne r&eacute;duira pas vos droits de toute fa&ccedil;on. Si les modifications apport&eacute;es &agrave; cette politique sont importantes, une notification sera affich&eacute;e sur l\'application. Toutefois, les petits changements peuvent &ecirc;tre apport&eacute;s si Merci de revoir r&eacute;guli&egrave;rement. Si vous n\'&ecirc;tes pas d\'accord toute modification apport&eacute;e &agrave; cette politique, vous devez cesser imm&eacute;diatement d\'utiliser l\'un des services que nous offrons et contactez-nous. Votre utilisation continue de nos services apr&egrave;s modification de cette politique signifie que vous avez accept&eacute; les termes de la Politique r&eacute;vis&eacute;e. Merci de noter qu\'aucun de nos employ&eacute;s ou agents n&rsquo;a le pouvoir de violer aucun des droits qui ont &eacute;t&eacute; &eacute;nonc&eacute;s dans la pr&eacute;sente politique.</p>
 <p><strong>&nbsp;</strong></p>
@@ -539,7 +539,7 @@
 ]]>
 </string>
 <string name="enter_your_id">Entrez votre Identifiant</string>
-<string name="app_description">Pervacio Content Transfer vous permet de transférer des données de votre ancien appareil vers un nouvel appareil. </string>
+<string name="app_description">pervacioo Content Transfer vous permet de transférer des données de votre ancien appareil vers un nouvel appareil. </string>
 <string name="str_content">Content</string>
 <string name="str_transfer">Transfer</string>
 <string name="location_turn_on_msg">Activez Emplacement de l\'appareil. Cliquez sur <b>OK</b> et activez <b>Accéder à ma position</b></string>

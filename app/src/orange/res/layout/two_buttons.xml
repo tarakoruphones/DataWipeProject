@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:background="@color/main_bg_gray">
 
-    <com.pervacio.wds.CustomButton
+    <com.pervacioo.wds.CustomButton
         android:id="@+id/btn_negative"
         android:layout_width="0dp"
         android:layout_height="40dp"
@@ -17,7 +17,7 @@
         android:fontFamily="@string/font_medium"
         android:textColor="@color/black" />
 
-    <com.pervacio.wds.CustomButton
+    <com.pervacioo.wds.CustomButton
         android:id="@+id/btn_postive"
         android:layout_width="0dp"
         android:layout_height="40dp"

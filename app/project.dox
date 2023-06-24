@@ -7,7 +7,7 @@
             <property name="AndroidManifestFile" value="${build.dir}/intermediates/manifests/full/${buildType}/AndroidManifest.xml"/>
             <property name="dasho.results.dir" value="${build.dir}/dasho-results/${buildType}"/>
             <property name="key.store" value="${user.home}/.android/debug.keystore"/>
-            <property name="manifest.package" value="com.pervacio.wds"/>
+            <property name="manifest.package" value="com.pervacioo.wds"/>
             <property name="KEYSTORE_PASSWORD" value="${key.store.password:-android}"/>
             <property name="KEY_ALIAS_PASSWORD" value="${key.alias.password:-android}"/>
             <property name="sdk.target" value="android-24"/>

@@ -13,7 +13,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.pervacio.wds.R;
+import com.pervacioo.wds.R;
 
 public class ConfirmDataWipeActivity extends AppCompatActivity {
 

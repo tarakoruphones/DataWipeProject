@@ -16,7 +16,7 @@
 <resources>
     <string name="app_name">TMS Content Transfer</string>
     <string name="welcome_screen_title">Welcome to TMS Content Transfer</string>
-    <string name="terms_and_conditions_text"> By downloading and using The Mobile Shop TMS Content Transfer App, these terms will automatically apply to you. Please make sure therefore that you read them carefully before using the app. Please be aware that you cannot send it on to anyone else, and you\'re not allowed to copy, or modify the app, any part of the app, or our trademarks, in any way.  You\'re not allowed to attempt to extract the source code of the app, you also shouldn\'t try to translate the app or make derivative versions.  The app itself, and all the trademarks, copyright, database rights and intellectual property rights related to it, still belong to Pervacio Inc.</string>
+    <string name="terms_and_conditions_text"> By downloading and using The Mobile Shop TMS Content Transfer App, these terms will automatically apply to you. Please make sure therefore that you read them carefully before using the app. Please be aware that you cannot send it on to anyone else, and you\'re not allowed to copy, or modify the app, any part of the app, or our trademarks, in any way.  You\'re not allowed to attempt to extract the source code of the app, you also shouldn\'t try to translate the app or make derivative versions.  The app itself, and all the trademarks, copyright, database rights and intellectual property rights related to it, still belong to pervacioo Inc.</string>
     <string name="text_suggestionSource">1.Forget the Store Wi-Fi network on this device.
               \n\n2.Uninstall the TMS Content Transfer app from this device.
     </string>
@@ -53,14 +53,14 @@ TMS Content Transfer lets you transfer data from your old device to a new device
      <![CDATA[
       <strong>TMS Content Transfer PRIVACY POLICY</strong>
     <p>
-        Pervacio Inc., creator of TMS Content Transfer, recognizes that your privacy is
+        pervacioo Inc., creator of TMS Content Transfer, recognizes that your privacy is
         important and that your personal information must be protected. This
         privacy policy describes the information that we collect from you, how we
         use it and what we do to protect it.
     </p>
     <p>
         Please read through this policy carefully and periodically. Please contact
-        us at support@pervacio.com if you have any questions about the contents of
+        us at support@pervacioo.com if you have any questions about the contents of
         this policy.
     </p>
     <p>
@@ -182,7 +182,7 @@ TMS Content Transfer lets you transfer data from your old device to a new device
     <p>
         If you have any questions or comments about this Policy or our privacy
         practices, or to report any violations of the Policy or abuse of the
-        Services or the Site, please contact us at support@pervacio.com
+        Services or the Site, please contact us at support@pervacioo.com
     </p>
     <p>
         <strong>We will update this privacy policy to ensure your rights.</strong>

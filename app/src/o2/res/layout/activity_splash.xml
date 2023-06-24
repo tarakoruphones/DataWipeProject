@@ -11,8 +11,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/pervacio_logo_top_margin"
-        android:src="@drawable/pervacio_logo" />
+        android:layout_marginTop="@dimen/pervacioo_logo_top_margin"
+        android:src="@drawable/pervacioo_logo" />
     <ImageView
         android:id="@+id/sprint_logo_img"
         android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
         android:layout_marginBottom="@dimen/splash_margin_bottom"
         android:src="@drawable/logo_large" />
 
-    <com.pervacio.wds.CustomTextView
+    <com.pervacioo.wds.CustomTextView
         android:id="@+id/welcome_title"
         style="@style/content_text"
         android:layout_width="wrap_content"
@@ -34,7 +34,7 @@
         android:layout_marginTop="@dimen/splash_margin_top"
         android:gravity="center"
         android:text="@string/str_content" />
-    <com.pervacio.wds.CustomTextView
+    <com.pervacioo.wds.CustomTextView
         android:id="@+id/welcome_title2"
         style="@style/transfer_text"
         android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
         android:layout_below="@id/welcome_title"
         android:gravity="center"
         android:text="@string/str_transfer" />
-    <com.pervacio.wds.CustomTextView
+    <com.pervacioo.wds.CustomTextView
         android:id="@+id/welcome_message"
         style="@style/description_text"
         android:layout_width="wrap_content"
@@ -81,7 +81,7 @@
         android:textColor="@color/white"
         android:padding="@dimen/round_button_padding"
         android:background="@drawable/round_corners_blue"
-        android:layout_marginBottom="@dimen/pervacio_logo_top_margin"
+        android:layout_marginBottom="@dimen/pervacioo_logo_top_margin"
         android:text="@string/lets_get_started" />
     <ProgressBar
         android:id="@+id/action_spinner"
@@ -93,7 +93,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="40dp"
         android:visibility="gone" />
-    <com.pervacio.wds.CustomTextView
+    <com.pervacioo.wds.CustomTextView
         android:id="@+id/app_version"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

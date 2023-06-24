@@ -250,7 +250,7 @@
     <string name="storeid_message">Zadajte ID predajne</string>
     <string name="terms_and_condition_dialog_header">Zmluvné podmienky</string>
     <string name="terms_and_condition_dialog_header_acknowledge">Please acknowledge the terms and conditions below to continue.</string>
-    <string name="wds_terms_and_conditions_text">Prevzatím a použitím aplikácie Pervacio Content Transfer pre vás automaticky platia tieto podmienky. Z tohto dôvodu si ich pred použitím aplikácie pozorne prečítajte. Upozorňujeme, že aplikáciu nemôžete poslať niekomu inému a aplikáciu, jej časť ani naše ochranné známky nesmiete žiadnym spôsobom kopírovať ani upravovať.  Pokusy o extrakciu zdrojového kódu aplikácie sú zakázané a nesmiete sa pokúšať ani o preklad aplikácie a vytvorenie jej odvodenín.  Samotná aplikácia a všetky ochranné známky, autorské práva, databázové práva a práva duševného vlastníctva, ktoré s ňou súvisia, stále patria spoločnosti Pervacio Inc.</string>
+    <string name="wds_terms_and_conditions_text">Prevzatím a použitím aplikácie pervacioo Content Transfer pre vás automaticky platia tieto podmienky. Z tohto dôvodu si ich pred použitím aplikácie pozorne prečítajte. Upozorňujeme, že aplikáciu nemôžete poslať niekomu inému a aplikáciu, jej časť ani naše ochranné známky nesmiete žiadnym spôsobom kopírovať ani upravovať.  Pokusy o extrakciu zdrojového kódu aplikácie sú zakázané a nesmiete sa pokúšať ani o preklad aplikácie a vytvorenie jej odvodenín.  Samotná aplikácia a všetky ochranné známky, autorské práva, databázové práva a práva duševného vlastníctva, ktoré s ňou súvisia, stále patria spoločnosti pervacioo Inc.</string>
     <string name="button_i_agree">Súhlasím</string>
     <string name="button_i_disagree">Nesúhlasím</string>
     <string name="connecting_to_server">Prebieha pripojenie k serveru</string>
@@ -347,7 +347,7 @@
     <string name="source_or_destination_title">Je to Zdrojové alebo Cieľové zariadenie?</string>
     <string name="other_device_type_title">Aký je typ druhého zariadenia?</string>
     <string name="accept">Prijať</string>
-    <string name="welcome_screen_title">Víta vás to Pervacio \n Content Transfer</string>
+    <string name="welcome_screen_title">Víta vás to pervacioo \n Content Transfer</string>
     <string name="lets_get_started">Začnime!</string>
     <string name="elapsed_time">Uplynulý čas : </string>
     <string name="estimation">Odhad : </string>
@@ -369,7 +369,7 @@
     <string name="read_more">Read the Sprint\'s <a href="http://www.sprint.com/privacypolicy">Privacy Policy</a>.</string>
     <string name="build_release_date">Build release date</string>
     <string name="version_number">Version number</string>
-    <string name="app_created">This app was created for Sprint by Pervacio, Inc.</string>
+    <string name="app_created">This app was created for Sprint by pervacioo, Inc.</string>
     <string name="comment_box">Please leave a comment about the app.</string>
     <string name="about">About</string>
     <string name="text_message">Sprint Content Transfer quickly and easily allows you to transfer the data between devices.</string>

@@ -33,13 +33,13 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import com.google.android.gms.auth.GoogleAuthUtil;
-import com.pervacio.wds.R;
+import com.pervacioo.wds.R;
 
 
 
-import org.pervacio.onediaglib.diagtests.SdCardInsertionTest;
+
 import org.pervacio.onediaglib.diagtests.TestResult;
-import org.pervacio.onediaglib.diagtests.TestSdCardResult;
+
 import org.pervacio.onediaglib.diagtests.TestSim;
 import java.io.BufferedReader;
 import java.io.File;
@@ -65,8 +65,6 @@ public class RestrictionCheckActivity extends AppCompatActivity {
     TextView SD_presentText;
     TestResult testResult;
     TestSim testSim;
-   // SdCardInsertionTest sdCardInsertionTest;
-    TestSdCardResult testSdCardResult;
     private ModeReceiverClass modeReceiverClass;
     public AccountManager accountManager;
 

@@ -18,7 +18,7 @@ android {
     buildToolsVersion '26.0.2'
     flavorDimensions "default"
     defaultConfig {
-        applicationId "com.pervacio.wds"
+        applicationId "com.pervacioo.wds"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1
@@ -39,8 +39,8 @@ android {
     }
 
     productFlavors {
-        pervacio {
-            applicationId "com.pervacio.wds"
+        pervacioo {
+            applicationId "com.pervacioo.wds"
             manifestPlaceholders = [appLabel: "Content Transfer"]
             dimension "default"
         }
@@ -51,13 +51,13 @@ android {
             targetSdkVersion 26
         }
         sprintMSDS {
-            applicationId "com.pervacio.wds"
+            applicationId "com.pervacioo.wds"
             manifestPlaceholders = [appLabel: "Sprint Content Transfer"]
             dimension "default"
             targetSdkVersion 26
         }
         tms {
-            applicationId "com.pervacio.wds"
+            applicationId "com.pervacioo.wds"
             manifestPlaceholders = [appLabel: "Content Transfer"]
             dimension "default"
             targetSdkVersion 26
@@ -69,26 +69,26 @@ android {
             targetSdkVersion 26
         }
         bell {
-            applicationId "com.pervacio.wct"
+            applicationId "com.pervacioo.wct"
             manifestPlaceholders = [appLabel: "Content Transfer"]
             dimension "default"
             targetSdkVersion 26
         }
         orange {
-            applicationId "com.pervacio.wds"
+            applicationId "com.pervacioo.wds"
             manifestPlaceholders = [appLabel: "Kopia Danych"]
             dimension "default"
             targetSdkVersion 22
         }
         o2 {
-            applicationId "com.pervacio.wct"
+            applicationId "com.pervacioo.wct"
             manifestPlaceholders = [appLabel: "Content Transfer"]
             dimension "default"
             targetSdkVersion 26
         }
         playstore {
-            applicationId "com.pervacio.wds"
-            manifestPlaceholders = [appLabel: "Pervacio Content Transfer"]
+            applicationId "com.pervacioo.wds"
+            manifestPlaceholders = [appLabel: "pervacioo Content Transfer"]
             dimension "default"
             targetSdkVersion 26
         }
@@ -114,7 +114,7 @@ dependencies {
     compile "android.arch.work:work-runtime:1.0.0-alpha04"
     //compile(name: 'zxing-android-embedded-release', ext: 'aar')
     compile 'com.journeyapps:zxing-android-embedded:3.5.0' // upgrading to new version of zxing
-    compile 'com.pervacio.crashreportlib:crashreportlib@aar'
+    compile 'com.pervacioo.crashreportlib:crashreportlib@aar'
     compile 'com.android.support:support-v4:26.1.0'
     compile 'com.android.support:appcompat-v7:26.1.0'
     compile 'com.android.support:recyclerview-v7:26.1.0'
