@@ -20,8 +20,10 @@ import android.provider.Settings;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -29,6 +31,7 @@ import android.widget.Toast;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
@@ -46,6 +49,7 @@ import java.io.File;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -65,6 +69,7 @@ public class RestrictionCheckActivity extends AppCompatActivity {
     TextView SD_presentText;
     TestResult testResult;
     TestSim testSim;
+    TimerTask timerTask;
     private ModeReceiverClass modeReceiverClass;
     public AccountManager accountManager;
 
@@ -79,6 +84,7 @@ public class RestrictionCheckActivity extends AppCompatActivity {
     Drawable SIM_img_current;
     Drawable SD_img_current ;
     private static final int PERMISSION_REQUEST_CODE = 1;
+    Timer timer;
 
 
     Handler handler;
@@ -91,6 +97,8 @@ public class RestrictionCheckActivity extends AppCompatActivity {
             Manifest.permission.WRITE_EXTERNAL_STORAGE
             // Add more permissions here as needed
     };
+    private ImageButton backButton;
+
 
 
 
@@ -98,7 +106,26 @@ public class RestrictionCheckActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Objects.requireNonNull(getSupportActionBar()).hide();
+
         setContentView(R.layout.activity_restriction_check);
+
+        backButton = findViewById(R.id.backButton);
+
+        backButton = findViewById(R.id.backButton);
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+
+               // onDestroy();
+            }
+        });
+
+
+        // setSupportActionBar(toolbar);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Log.d("Tarak", "onCreate: "+"New Updated Data Wipe Tarak");
 
@@ -174,7 +201,10 @@ public class RestrictionCheckActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                finish();
+                onBackPressed();
+
+
+
 
             }
         });
@@ -188,6 +218,9 @@ public class RestrictionCheckActivity extends AppCompatActivity {
         });
 
     }
+
+
+
 
     private void checkPermissions() {
         List<String> permissionsNeeded = new ArrayList<>();
@@ -320,9 +353,14 @@ public class RestrictionCheckActivity extends AppCompatActivity {
 
                     Intent myIntent = new Intent(getApplicationContext(), ConfirmDataWipeActivity.class);
                     startActivity(myIntent);
+                   // onDestroy();
 
                 }
             }, 1200);
+
+           // onDestroy();
+            //onPause();
+            //finish();
 
         }
         else {
@@ -394,7 +432,7 @@ public class RestrictionCheckActivity extends AppCompatActivity {
     private void startUpdatingTextView() {
 
         // Create a periodic task to update the TextView at a desired interval
-        TimerTask timerTask = new TimerTask() {
+         timerTask = new TimerTask() {
             @Override
             public void run() {
 
@@ -453,7 +491,7 @@ public class RestrictionCheckActivity extends AppCompatActivity {
                             Confirm.setEnabled(true);
                             //Confirm.setBackgroundColor(getResources().getColor(R.color.backgroundColor));
                             Confirm.setAlpha(1);
-                            Confirm.setBackgroundResource(R.color.backgroundColor);
+                            Confirm.setBackgroundResource(R.color.oru_color);
 
 
                         }
@@ -461,7 +499,7 @@ public class RestrictionCheckActivity extends AppCompatActivity {
                             Confirm.setClickable(false);
                             Confirm.setEnabled(false);
 
-                            Confirm.setBackgroundResource(R.color.backgroundColor_NotClickable);
+                            Confirm.setBackgroundResource(R.color.oru_color);
                             Confirm.setAlpha(0.6f); // Set the transparency of the button to 60%
 
 
@@ -476,9 +514,60 @@ public class RestrictionCheckActivity extends AppCompatActivity {
         };
 
         // Schedule the periodic task to run every desired interval
-        Timer timer = new Timer();
+        timer = new Timer();
         timer.schedule(timerTask, 0, 1000); // Update every 1 second (adjust the interval as needed)
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        // Call finish() to destroy the activity
+
+        // Cancel the TimerTask and Timer
+        if (timer != null) {
+            timer.cancel();
+            timer = null;
+        }
+
+        if (timerTask != null) {
+            timerTask.cancel();
+            timerTask = null;
+        }
+
+        finish();
+    }
+
+//    @Override
+//   public void onBackPressed() {
+
+//       try {
+//           super.onBackPressed();
+//           // Call finish() to destroy the activity
+//           finish();
+//       } catch (Exception e) {
+//           // Log the error
+//           Log.e("MyActivity", "Error while destroying activity: " + e.getMessage());
+//           // Perform any necessary error handling or recovery
+//           // In this case, simply pressing the back button again
+//           super.onBackPressed();
+//       }
+//   }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        unregisterReceiver(modeReceiverClass);
+        // Cancel the TimerTask and Timer in onDestroy() as a fallback
+        if (timer != null) {
+            timer.cancel();
+            timer = null;
+        }
+
+        if (timerTask != null) {
+            timerTask.cancel();
+            timerTask = null;
+        }
     }
 
     public static void openGoogleAccountsSettings(Context context) {
@@ -548,12 +637,15 @@ public class RestrictionCheckActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
 
-        // Unregister the receiver
-        unregisterReceiver(modeReceiverClass);
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 

@@ -50,8 +50,7 @@
     </style>
 
     <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="android:windowNoTitle">true</item>
+
         <item name="android:windowDisablePreview">true</item>
         <item name="android:windowBackground">@null</item>
         <item name="android:windowIsTranslucent">false</item>
@@ -61,6 +60,8 @@
     </style>
 
     <style name="AppTheme.NoActionBar1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
         <item name="android:windowIsTranslucent">false</item>
     </style>
 

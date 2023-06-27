@@ -37,6 +37,7 @@
     <color name="lightRed">#ee4126</color>
     <color name="midRed">#d62828</color>
     <color name="darkRed">#a31945</color>
+    <color name="oru_color">#2c2f44</color>
 
 
     <color name="wds_button_color">@color/wds_colorPrimary</color>

@@ -76,6 +76,8 @@
 
 
     <application
+
+
         android:name="com.DataWipe.wds.custom.APPI"
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"

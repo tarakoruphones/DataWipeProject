@@ -11,9 +11,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.pervacioo.wds.R;
+
+import java.util.Objects;
 
 public class ConfirmDataWipeActivity extends AppCompatActivity {
 
@@ -23,12 +26,23 @@ public class ConfirmDataWipeActivity extends AppCompatActivity {
     Button Confirm;
     private DevicePolicyManager devicePolicyManager;
     private ComponentName deviceAdminReceiver;
-
+    private ImageButton backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Objects.requireNonNull(getSupportActionBar()).hide();
         setContentView(R.layout.activity_confirm_data_wipe);
+
+
+        backButton = findViewById(R.id.backButton);
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
 
         getIDs();
 
